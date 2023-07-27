@@ -13,9 +13,9 @@ submitBtn.addEventListener("click",(e) => {
   const prom = new Promise((resolve, reject) => {
     let age = Number(ageInput.value);
     if (age >= 18) {
-       resolve();
+       resolve("Validation successful!");
     } else {
-      reject();
+      reject("Please enter valid details");
     }
   })
 
