@@ -27,10 +27,10 @@ submitBtn.addEventListener("click",() => {
   })
 
   prom.then(() => {
-    let innerHtml = `Welcome, ${nameInput.value}, You can vote.`
-    alert(innerHtml);
+    let textContent = `Welcome, ${nameInput.value}, You can vote.`
+    alert(textContent);
   }).catch(() => {
-    let innerHtml = `Oh sorry ${nameInput.value}. You aren't old enough.`;
-    alert(innerHtml);
+    let textContent = `Oh sorry ${nameInput.value}. You aren't old enough.`;
+    alert(textContent);
   })
 })
